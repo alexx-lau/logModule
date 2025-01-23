@@ -8,6 +8,7 @@ import (
 	"time"
 )
 
+// GenLogFileDaily 根据参数生成日志文件
 func GenLogFileDaily(path, filename string, maxFileLength int64, fixedLength int64) (file *os.File, err error) {
 	year := time.Now().Format("2006")
 	month := time.Now().Format("01")
