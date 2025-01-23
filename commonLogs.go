@@ -1,4 +1,4 @@
-package logModule
+package log_module
 
 import (
 	"io"
